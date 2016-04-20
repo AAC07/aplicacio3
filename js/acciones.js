@@ -25,7 +25,7 @@ $(document).ready(function(e) {
 });//document
 
 function escribehistoria(accion){
-	$('#eHistoria').append('<|i>'+accion+'</|i>');
+	$('#eHistoria').append('<li>'+accion+'</li>');
 }
 	
 	
